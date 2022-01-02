@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE91CAF527812973004A74A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CAF427812973004A74A3 /* AppDelegate.swift */; };
+		EE91CAF727812973004A74A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CAF627812973004A74A3 /* SceneDelegate.swift */; };
+		EE91CAF927812973004A74A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CAF827812973004A74A3 /* ViewController.swift */; };
+		EE91CAFC27812973004A74A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE91CAFA27812973004A74A3 /* Main.storyboard */; };
+		EE91CAFE27812973004A74A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE91CAFD27812973004A74A3 /* Assets.xcassets */; };
+		EE91CB0127812973004A74A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE91CAFF27812973004A74A3 /* LaunchScreen.storyboard */; };
+		EE91CB0C27812974004A74A3 /* HanayomeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CB0B27812974004A74A3 /* HanayomeAppTests.swift */; };
+		EE91CB1627812974004A74A3 /* HanayomeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CB1527812974004A74A3 /* HanayomeAppUITests.swift */; };
+		EE91CB1827812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CB1727812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE91CB0827812974004A74A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE91CAE927812973004A74A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE91CAF027812973004A74A3;
+			remoteInfo = HanayomeApp;
+		};
+		EE91CB1227812974004A74A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE91CAE927812973004A74A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE91CAF027812973004A74A3;
+			remoteInfo = HanayomeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE91CAF127812973004A74A3 /* HanayomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanayomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE91CAF427812973004A74A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE91CAF627812973004A74A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE91CAF827812973004A74A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE91CAFB27812973004A74A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE91CAFD27812973004A74A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE91CB0027812973004A74A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE91CB0227812973004A74A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE91CB0727812974004A74A3 /* HanayomeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanayomeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE91CB0B27812974004A74A3 /* HanayomeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanayomeAppTests.swift; sourceTree = "<group>"; };
+		EE91CB1127812974004A74A3 /* HanayomeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanayomeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE91CB1527812974004A74A3 /* HanayomeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanayomeAppUITests.swift; sourceTree = "<group>"; };
+		EE91CB1727812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanayomeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE91CAEE27812973004A74A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE91CB0427812974004A74A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE91CB0E27812974004A74A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE91CAE827812973004A74A3 = {
+			isa = PBXGroup;
+			children = (
+				EE91CAF327812973004A74A3 /* HanayomeApp */,
+				EE91CB0A27812974004A74A3 /* HanayomeAppTests */,
+				EE91CB1427812974004A74A3 /* HanayomeAppUITests */,
+				EE91CAF227812973004A74A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE91CAF227812973004A74A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE91CAF127812973004A74A3 /* HanayomeApp.app */,
+				EE91CB0727812974004A74A3 /* HanayomeAppTests.xctest */,
+				EE91CB1127812974004A74A3 /* HanayomeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE91CAF327812973004A74A3 /* HanayomeApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE91CAF427812973004A74A3 /* AppDelegate.swift */,
+				EE91CAF627812973004A74A3 /* SceneDelegate.swift */,
+				EE91CAF827812973004A74A3 /* ViewController.swift */,
+				EE91CAFA27812973004A74A3 /* Main.storyboard */,
+				EE91CAFD27812973004A74A3 /* Assets.xcassets */,
+				EE91CAFF27812973004A74A3 /* LaunchScreen.storyboard */,
+				EE91CB0227812973004A74A3 /* Info.plist */,
+			);
+			path = HanayomeApp;
+			sourceTree = "<group>";
+		};
+		EE91CB0A27812974004A74A3 /* HanayomeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE91CB0B27812974004A74A3 /* HanayomeAppTests.swift */,
+			);
+			path = HanayomeAppTests;
+			sourceTree = "<group>";
+		};
+		EE91CB1427812974004A74A3 /* HanayomeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE91CB1527812974004A74A3 /* HanayomeAppUITests.swift */,
+				EE91CB1727812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift */,
+			);
+			path = HanayomeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE91CAF027812973004A74A3 /* HanayomeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE91CB1B27812974004A74A3 /* Build configuration list for PBXNativeTarget "HanayomeApp" */;
+			buildPhases = (
+				EE91CAED27812973004A74A3 /* Sources */,
+				EE91CAEE27812973004A74A3 /* Frameworks */,
+				EE91CAEF27812973004A74A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanayomeApp;
+			productName = HanayomeApp;
+			productReference = EE91CAF127812973004A74A3 /* HanayomeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE91CB0627812974004A74A3 /* HanayomeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE91CB1E27812974004A74A3 /* Build configuration list for PBXNativeTarget "HanayomeAppTests" */;
+			buildPhases = (
+				EE91CB0327812974004A74A3 /* Sources */,
+				EE91CB0427812974004A74A3 /* Frameworks */,
+				EE91CB0527812974004A74A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE91CB0927812974004A74A3 /* PBXTargetDependency */,
+			);
+			name = HanayomeAppTests;
+			productName = HanayomeAppTests;
+			productReference = EE91CB0727812974004A74A3 /* HanayomeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE91CB1027812974004A74A3 /* HanayomeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE91CB2127812974004A74A3 /* Build configuration list for PBXNativeTarget "HanayomeAppUITests" */;
+			buildPhases = (
+				EE91CB0D27812974004A74A3 /* Sources */,
+				EE91CB0E27812974004A74A3 /* Frameworks */,
+				EE91CB0F27812974004A74A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE91CB1327812974004A74A3 /* PBXTargetDependency */,
+			);
+			name = HanayomeAppUITests;
+			productName = HanayomeAppUITests;
+			productReference = EE91CB1127812974004A74A3 /* HanayomeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE91CAE927812973004A74A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EE91CAF027812973004A74A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EE91CB0627812974004A74A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EE91CAF027812973004A74A3;
+					};
+					EE91CB1027812974004A74A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EE91CAF027812973004A74A3;
+					};
+				};
+			};
+			buildConfigurationList = EE91CAEC27812973004A74A3 /* Build configuration list for PBXProject "HanayomeApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE91CAE827812973004A74A3;
+			productRefGroup = EE91CAF227812973004A74A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE91CAF027812973004A74A3 /* HanayomeApp */,
+				EE91CB0627812974004A74A3 /* HanayomeAppTests */,
+				EE91CB1027812974004A74A3 /* HanayomeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE91CAEF27812973004A74A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE91CB0127812973004A74A3 /* LaunchScreen.storyboard in Resources */,
+				EE91CAFE27812973004A74A3 /* Assets.xcassets in Resources */,
+				EE91CAFC27812973004A74A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE91CB0527812974004A74A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE91CB0F27812974004A74A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE91CAED27812973004A74A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE91CAF927812973004A74A3 /* ViewController.swift in Sources */,
+				EE91CAF527812973004A74A3 /* AppDelegate.swift in Sources */,
+				EE91CAF727812973004A74A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE91CB0327812974004A74A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE91CB0C27812974004A74A3 /* HanayomeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE91CB0D27812974004A74A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE91CB1827812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift in Sources */,
+				EE91CB1627812974004A74A3 /* HanayomeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE91CB0927812974004A74A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE91CAF027812973004A74A3 /* HanayomeApp */;
+			targetProxy = EE91CB0827812974004A74A3 /* PBXContainerItemProxy */;
+		};
+		EE91CB1327812974004A74A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE91CAF027812973004A74A3 /* HanayomeApp */;
+			targetProxy = EE91CB1227812974004A74A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE91CAFA27812973004A74A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE91CAFB27812973004A74A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE91CAFF27812973004A74A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE91CB0027812973004A74A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE91CB1927812974004A74A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE91CB1A27812974004A74A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE91CB1C27812974004A74A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3YFXXR9HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HanayomeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutanishio.HanayomeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE91CB1D27812974004A74A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3YFXXR9HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HanayomeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutanishio.HanayomeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE91CB1F27812974004A74A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3YFXXR9HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutanishio.HanayomeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanayomeApp.app/HanayomeApp";
+			};
+			name = Debug;
+		};
+		EE91CB2027812974004A74A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3YFXXR9HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutanishio.HanayomeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanayomeApp.app/HanayomeApp";
+			};
+			name = Release;
+		};
+		EE91CB2227812974004A74A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3YFXXR9HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutanishio.HanayomeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanayomeApp;
+			};
+			name = Debug;
+		};
+		EE91CB2327812974004A74A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3YFXXR9HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutanishio.HanayomeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanayomeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE91CAEC27812973004A74A3 /* Build configuration list for PBXProject "HanayomeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE91CB1927812974004A74A3 /* Debug */,
+				EE91CB1A27812974004A74A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE91CB1B27812974004A74A3 /* Build configuration list for PBXNativeTarget "HanayomeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE91CB1C27812974004A74A3 /* Debug */,
+				EE91CB1D27812974004A74A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE91CB1E27812974004A74A3 /* Build configuration list for PBXNativeTarget "HanayomeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE91CB1F27812974004A74A3 /* Debug */,
+				EE91CB2027812974004A74A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE91CB2127812974004A74A3 /* Build configuration list for PBXNativeTarget "HanayomeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE91CB2227812974004A74A3 /* Debug */,
+				EE91CB2327812974004A74A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE91CAE927812973004A74A3 /* Project object */;
+}
