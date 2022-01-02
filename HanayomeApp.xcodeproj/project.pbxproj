@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3863F227816285009389D2 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3863F127816285009389D2 /* NewsListViewController.swift */; };
+		EE3863F42781655B009389D2 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3863F32781655B009389D2 /* NewsItem.swift */; };
+		EE3863F727816AEA009389D2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3863F627816AEA009389D2 /* WebKit.framework */; };
+		EE3863F927816B1E009389D2 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3863F827816B1E009389D2 /* NewsDetailViewController.swift */; };
+		EE4128F12781316F0021D6E8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4128F02781316F0021D6E8 /* Item.swift */; };
 		EE91CAF527812973004A74A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CAF427812973004A74A3 /* AppDelegate.swift */; };
 		EE91CAF727812973004A74A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CAF627812973004A74A3 /* SceneDelegate.swift */; };
-		EE91CAF927812973004A74A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CAF827812973004A74A3 /* ViewController.swift */; };
+		EE91CAF927812973004A74A3 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CAF827812973004A74A3 /* TodoListViewController.swift */; };
 		EE91CAFC27812973004A74A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE91CAFA27812973004A74A3 /* Main.storyboard */; };
 		EE91CAFE27812973004A74A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE91CAFD27812973004A74A3 /* Assets.xcassets */; };
 		EE91CB0127812973004A74A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE91CAFF27812973004A74A3 /* LaunchScreen.storyboard */; };
-		EE91CB0C27812974004A74A3 /* HanayomeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CB0B27812974004A74A3 /* HanayomeAppTests.swift */; };
-		EE91CB1627812974004A74A3 /* HanayomeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CB1527812974004A74A3 /* HanayomeAppUITests.swift */; };
-		EE91CB1827812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE91CB1727812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE3863F127816285009389D2 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		EE3863F32781655B009389D2 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		EE3863F627816AEA009389D2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		EE3863F827816B1E009389D2 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		EE4128F02781316F0021D6E8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EE91CAF127812973004A74A3 /* HanayomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanayomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE91CAF427812973004A74A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE91CAF627812973004A74A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE91CAF827812973004A74A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE91CAF827812973004A74A3 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		EE91CAFB27812973004A74A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE91CAFD27812973004A74A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE91CB0027812973004A74A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE91CB0227812973004A74A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE91CB0727812974004A74A3 /* HanayomeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanayomeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE91CB0B27812974004A74A3 /* HanayomeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanayomeAppTests.swift; sourceTree = "<group>"; };
 		EE91CB1127812974004A74A3 /* HanayomeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanayomeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE91CB1527812974004A74A3 /* HanayomeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanayomeAppUITests.swift; sourceTree = "<group>"; };
-		EE91CB1727812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanayomeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3863F727816AEA009389D2 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE3863F527816AEA009389D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE3863F627816AEA009389D2 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE91CAE827812973004A74A3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,7 @@
 				EE91CB0A27812974004A74A3 /* HanayomeAppTests */,
 				EE91CB1427812974004A74A3 /* HanayomeAppUITests */,
 				EE91CAF227812973004A74A3 /* Products */,
+				EE3863F527816AEA009389D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +115,15 @@
 			children = (
 				EE91CAF427812973004A74A3 /* AppDelegate.swift */,
 				EE91CAF627812973004A74A3 /* SceneDelegate.swift */,
-				EE91CAF827812973004A74A3 /* ViewController.swift */,
+				EE91CAF827812973004A74A3 /* TodoListViewController.swift */,
 				EE91CAFA27812973004A74A3 /* Main.storyboard */,
 				EE91CAFD27812973004A74A3 /* Assets.xcassets */,
 				EE91CAFF27812973004A74A3 /* LaunchScreen.storyboard */,
 				EE91CB0227812973004A74A3 /* Info.plist */,
+				EE4128F02781316F0021D6E8 /* Item.swift */,
+				EE3863F127816285009389D2 /* NewsListViewController.swift */,
+				EE3863F32781655B009389D2 /* NewsItem.swift */,
+				EE3863F827816B1E009389D2 /* NewsDetailViewController.swift */,
 			);
 			path = HanayomeApp;
 			sourceTree = "<group>";
@@ -113,7 +131,6 @@
 		EE91CB0A27812974004A74A3 /* HanayomeAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE91CB0B27812974004A74A3 /* HanayomeAppTests.swift */,
 			);
 			path = HanayomeAppTests;
 			sourceTree = "<group>";
@@ -121,8 +138,6 @@
 		EE91CB1427812974004A74A3 /* HanayomeAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EE91CB1527812974004A74A3 /* HanayomeAppUITests.swift */,
-				EE91CB1727812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift */,
 			);
 			path = HanayomeAppUITests;
 			sourceTree = "<group>";
@@ -258,7 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE91CAF927812973004A74A3 /* ViewController.swift in Sources */,
+				EE3863F227816285009389D2 /* NewsListViewController.swift in Sources */,
+				EE3863F42781655B009389D2 /* NewsItem.swift in Sources */,
+				EE4128F12781316F0021D6E8 /* Item.swift in Sources */,
+				EE3863F927816B1E009389D2 /* NewsDetailViewController.swift in Sources */,
+				EE91CAF927812973004A74A3 /* TodoListViewController.swift in Sources */,
 				EE91CAF527812973004A74A3 /* AppDelegate.swift in Sources */,
 				EE91CAF727812973004A74A3 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +287,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE91CB0C27812974004A74A3 /* HanayomeAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE91CB1827812974004A74A3 /* HanayomeAppUITestsLaunchTests.swift in Sources */,
-				EE91CB1627812974004A74A3 /* HanayomeAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
